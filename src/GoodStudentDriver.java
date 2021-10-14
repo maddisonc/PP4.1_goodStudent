@@ -9,11 +9,12 @@ public class GoodStudentDriver
         GoodStudent hopper = new GoodStudent("Grace", "Hopper", 190692, 3.99, true);
 
 
-        GoodStudent gates = new GoodStudent("Bill", "Gates", 3.98, true);
+//        GoodStudent gates = new GoodStudent("Bill", "Gates", 3.98, true);
+//
+//        System.out.println(hopper.CreateID());
+//        System.out.println(gates.CSGPA());
 
-        System.out.println(hopper.CreateID());
-
-        System.out.println(gates.CSGPA());
+        System.out.println(turing.toString());
 
     } // end main
 
