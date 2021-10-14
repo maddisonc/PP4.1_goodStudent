@@ -15,6 +15,7 @@ public class GoodStudentDriver
 //        System.out.println(gates.CSGPA());
 
         System.out.println(turing.toString());
+        System.out.println();
 
     } // end main
 
