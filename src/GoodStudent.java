@@ -111,10 +111,10 @@ public class GoodStudent
     public String toString()
     {
         String output = "First name: " + firstName;
-        output.concat("\n Last name: " + lastName);
-        output.concat("\n ID Number: " + idNum);
-        output.concat("\n GPA: " + gpa);
-        output.concat("\n CS Student status: " + isCsStudent);
+        output += ("\n Last name: " + lastName);
+        output += ("\n ID Number: " + idNum);
+        output += ("\n GPA: " + gpa);
+        output += ("\n CS Student status: " + isCsStudent);
         return output;
     }
 
