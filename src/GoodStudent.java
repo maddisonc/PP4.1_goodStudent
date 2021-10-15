@@ -25,7 +25,7 @@ public class GoodStudent
         lastName = newLastName;
         gpa = newGpa;
         isCsStudent = newIsCsStudent;
-    }
+    } // end partially full constructor
 
     public GoodStudent ()
     {
@@ -40,53 +40,53 @@ public class GoodStudent
     public String getFirstName()
     {
         return firstName;
-    }
+    } // end getFirst
 
     public String getLastName()
     {
         return lastName;
-    }
+    } // end getLast
 
     public int getIdNum()
     {
         return idNum;
-    }
+    } // end getId
 
     public double getGpa()
     {
         return gpa;
-    }
+    } // end getGpa
 
     public boolean getIsCsStudent()
     {
         return isCsStudent;
-    }
+    } // end getCS
 
     //5) Setters
     public void setFirstName(String newFirstName)
     {
         firstName = newFirstName;
-    }
+    } // end setFirst
 
     public void setLastName(String newLastName)
     {
         lastName = newLastName;
-    }
+    } // end setLast
 
     public void setIdNum(int newIdNum)
     {
         idNum = newIdNum;
-    }
+    } // end setId
 
     public void setGpa(double newGpa)
     {
         gpa = newGpa;
-    }
+    } // end setGpa
 
     public void setIsCsStudent(boolean newIsCsStudent)
     {
         isCsStudent = newIsCsStudent;
-    }
+    } // end setCS
 
     //6) Brain methods
     // private String CreateID
@@ -116,6 +116,6 @@ public class GoodStudent
         output += ("\n GPA: " + gpa);
         output += ("\n CS Student status: " + isCsStudent);
         return output;
-    }
+    } // endtoString()
 
 } // end GoodStudent class
